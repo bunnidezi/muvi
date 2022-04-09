@@ -21,6 +21,8 @@ function App() {
                 <Route path='/series' element={<Series/>}/>
                 <Route path='/search' element={<Search/>}/>
             </Routes>
+            <div onClick={() =>window.scroll(0, 0)}
+        className="move">⬆</div>
         </Container>
     </div>
     
